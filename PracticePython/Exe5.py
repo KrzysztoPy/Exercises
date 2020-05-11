@@ -5,6 +5,10 @@ a = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13]
 
 
 def common():
+    """
+    Check which list is bigger and saves to a new list common elements.
+    :return:
+    """
     print("List a: {} \nList b: {}\n".format(a, b))
 
     if a.__len__() > b.__len__():
@@ -23,3 +27,5 @@ for i in range(0, randint(0, 15)):
 for i in range(0, randint(0, 15)):
     b.append(randint(0, 101))
 common()
+
+# Extras 2
