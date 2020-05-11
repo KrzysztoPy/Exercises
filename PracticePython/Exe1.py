@@ -8,6 +8,7 @@ while True:
         break
     except ValueError:
         print("Enter the year using numbers. Try again! ")
+
 print('{} will be 100 years old in the year {} \n'.format(name, int((datetime.datetime.now()).year) - age + 100))
 number = input("Give me a number: ")
 # Extras 1 :
