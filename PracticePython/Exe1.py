@@ -7,3 +7,5 @@ print('{} will be 100 years old in the year {} \n'.format(name, int((datetime.da
 number = input("Give me a number: ")
 # Extras 1 :
 print(number * int(number))
+# Extras 2 :
+print('{}\n'.format(number) * int(number))
