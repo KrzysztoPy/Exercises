@@ -11,3 +11,11 @@ for i in a:
 print(b)
 # Extras 2
 print([i for i in a if i < 5])
+# Extras 3
+while True:
+    try:
+        in_num = int(input("Give me a number"))
+        break
+    except ValueError:
+        print("Wrong input data. Try again!")
+print([i for i in a if i < in_num])
