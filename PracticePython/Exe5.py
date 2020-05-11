@@ -28,4 +28,3 @@ for i in range(0, randint(0, 15)):
     b.append(randint(0, 101))
 common()
 
-# Extras 2
