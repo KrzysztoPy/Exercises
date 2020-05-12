@@ -11,7 +11,11 @@ def in_num():
     while True:
         while True:
             try:
-                input_num = int(input("Give me a number: "))
+                input_num = input("Give me a number: ")
+                # Extras 1
+                if input_num == "exit":
+                    exit()
+                input_num = int(input_num)
                 break
             except ValueError:
                 print("You can only write a number. Try again.")
