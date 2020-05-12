@@ -4,6 +4,8 @@ from random import randint
 def in_num():
     '''
     Draws number from 1 to 9. Then waiting for a data from the user and interprets it.
+    You can stop program by typing "exit".
+    Have shot counter.
     :return:
     '''
     drawn_num = randint(1, 10)
