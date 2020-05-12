@@ -7,6 +7,7 @@ def in_num():
     :return:
     '''
     drawn_num = randint(1, 10)
+    shot_counter = 0
 
     while True:
         while True:
@@ -16,6 +17,7 @@ def in_num():
                 if input_num == "exit":
                     exit()
                 input_num = int(input_num)
+                shot_counter += 1
                 break
             except ValueError:
                 print("You can only write a number. Try again.")
@@ -24,8 +26,8 @@ def in_num():
         elif input_num > drawn_num:
             print("Too High")
         else:
-
-            print("Exactly right")
+            print("\nExactly right")
+            print("Shot counter: {}".format(shot_counter))
             break
 
 
