@@ -8,7 +8,7 @@ def max_range():
             print("Wrong input data. Try again.")
 
 
-def fibb(num = max_range()):
+def fibb(num=max_range()):
     first_num = 0
     second_num = 1
     print(first_num)
@@ -16,10 +16,10 @@ def fibb(num = max_range()):
     while True:
         tmp = second_num
         second_num = first_num + second_num
-        first_num = tmp
-        print(second_num)
         if (second_num > num):
             break
+        first_num = tmp
+        print(second_num)
 
 
 def menu():
