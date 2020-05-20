@@ -38,13 +38,13 @@ def binary_search(collection=set(), value=0):
 
 
 def test():
-    test = [1, 2, 3, 4, 5, 6, 7, 8]
-    test1 = [1, 2, 3, 4, 5, 6, 7, 8, 9]
+    test_list0 = [1, 2, 3, 4, 5, 6, 7, 8]
+    test_list1 = [1, 2, 3, 4, 5, 6, 7, 8, 9]
     for i in range(1, 10, 1):
         print("Whether {} is in list?".format(i))
-        binary_search(test.copy(), i)
+        binary_search(test_list0.copy(), i)
         print("Whether {} is in list?".format(i))
-        binary_search(test1.copy(), i)
+        binary_search(test_list1.copy(), i)
 
 
 test()
